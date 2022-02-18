@@ -1,0 +1,22 @@
+body {
+    background: #339900; 
+}
+
+span {
+    display: block;
+}
+.outline {
+    width: 110px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px; 
+    background: #fff;
+    color: #cc0033;
+}
+.top {
+    text-align: left;
+}
+
+.bottom {
+    text-align: right;
+}
