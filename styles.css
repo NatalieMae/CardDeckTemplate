@@ -1,11 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
 body {
+    
     background: #339900; 
 }
 
 span {
     display: block;
 }
+
 .outline {
+    grid-row:auto;
     width: 110px;
     text-align: center;
     padding: 10px;
