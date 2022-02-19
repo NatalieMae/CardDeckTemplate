@@ -3,7 +3,6 @@
     flex-direction: row;
 }
 body {
-    
     background: #339900; 
 }
 
@@ -17,7 +16,7 @@ span {
     text-align: center;
     padding: 10px;
     margin: 10px; 
-    background: #fff;
+    background:#fff;
     color: #cc0033;
 }
 .top {

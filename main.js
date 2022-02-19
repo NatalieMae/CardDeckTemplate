@@ -40,3 +40,6 @@ const deck1 = new Deck();
 console.log(deck1.deck);
 deck1.reset();
 console.log(deck1.deck);
+
+
+
