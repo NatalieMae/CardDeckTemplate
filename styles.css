@@ -7,7 +7,7 @@ body {
 }
 
 span {
-    display: block;
+    display: inline-block;
 }
 
 .outline {
