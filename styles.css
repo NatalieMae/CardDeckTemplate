@@ -1,12 +1,19 @@
-.container {
+#root {
     display: flex;
-    flex-direction: row;
 }
 body {
     background: #339900; 
 }
 
-span {
+
+
+
+
+/* .container {
+    display: flex;
+    flex-direction: row;
+} */
+/* span {
     display: inline-block;
 }
 
@@ -25,4 +32,4 @@ span {
 
 .bottom {
     text-align: right;
-}
+} */
