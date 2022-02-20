@@ -1,35 +1,41 @@
 #root {
-    display: flex;
+    display: grid;
+    width: auto;
+    color: black;
+
 }
+
 body {
     background: #339900; 
+
 }
 
+/* .myDeck  {
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    width: 95px;
+    height: 150px;
+    float:left;
+    background-color: white;
+    padding: 3px 3px 3px 3px;
+    margin: 5px;
+}  */
 
-
-
-
-/* .container {
-    display: flex;
-    flex-direction: row;
+/* .div#warDiv {
+    display: grid;
 } */
-/* span {
-    display: inline-block;
-}
 
-.outline {
-    grid-row:auto;
-    width: 110px;
-    text-align: center;
+ /* .card {
+    width: 50px;
     padding: 10px;
-    margin: 10px; 
-    background:#fff;
-    color: #cc0033;
-}
-.top {
-    text-align: left;
-}
-
-.bottom {
-    text-align: right;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
 } */
+
+
