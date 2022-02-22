@@ -1,3 +1,6 @@
+const SUITS = ["♠", "♣", "♥", "♦"];
+const VALUES = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"]
+
 class Deck {
     constructor(deck) {
         this.name = deck; // "deck1" or "deck2"

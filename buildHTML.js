@@ -3,7 +3,7 @@
 function renderDeck(myDeck) {
 	document.getElementById("deck").innerHTML = "";
 	
-	for (let i = 0; i < deck.length; i++) {
+	for (let i = this.deck.length - 1; i > 0; i--) {
 		let card = document.createElement("div");
 
 		// card.textContent = "🂡";
@@ -12,11 +12,13 @@ function renderDeck(myDeck) {
 		// suit.className = "suit" + deck[i].suit;
 			
 	if (deck.deck[i].suit === "Hearts") {
-		card.textContent  = "&hearts";
+		card.textContent  = "♥";
 	} else if (deck.deck[i].suit === "Clubs") {
-		card.textContent = "&Clubs";
+		card.textContent = "♣";
 	} else if (deck.deck[i].suit === "Spades") {
-		card.textContent = "&Spades";
+		card.textContent = "♠";
+	} else if (deck.deck[i].suit === "Diamonds") {
+		card.textContent = "♥";
 	}
 		value.innerHTML = deck[i].Value;
 		card.appendChild(value);
